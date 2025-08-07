@@ -9,7 +9,7 @@ def square(number):
     return number * number
 
 if __name__ == '__main__':
-    numbers = range(1, 10)
+    numbers = range(1, 20)
 
     print("--- Pool과 map을 사용한 병렬 처리 시작 ---")
     start_time = time.time()
